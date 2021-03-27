@@ -21,7 +21,7 @@ class ApiController extends Controller
             return view('welcome');
         }
         date_default_timezone_set('Asia/Jakarta');
-        $response = Http::get('https://backoffice.syariahrooms.com/api/ct_prop', [
+        $response = Http::get('https://backoffice.alfathhospitality.com/api/ct_prop', [
             'client_key' => 'qJRCK04wWxcoINai',
             'date' => date("j"),
             'night' => 1,

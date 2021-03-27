@@ -10,7 +10,7 @@
     <!--========== CSS ==========-->
     <link rel="stylesheet" href="{{ url('backend/css/styles.css') }}">
 
-    <title>Syariahrooms Hospitality</title>
+    <title>ALFATH Hospitality</title>
 </head>
 
 <body>
@@ -24,7 +24,7 @@
         <nav class="nav bd-container">
             <div class="nav__brand">
                 <img src="{{ url('backend/img/logo.png') }}" alt="" class="logo-img">
-                <a href="#" class="nav__logo">Syariahrooms <br> Hospitality</a>
+                <a href="#" class="nav__logo">ALFATH <br> Hospitality</a>
             </div>
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
@@ -126,7 +126,7 @@
                 <a class="next" onclick="plusSlides(1)">&#10095;</a>
             </div>
         </section>
-        
+
         <!--========== INVESTMENT ==========-->
         <div class="promo bd-container form-container hideForm" id="reach">
             <div class="screen " id="screen">
@@ -178,7 +178,7 @@
                                   placeholder="message"
                                   style="text-transform: unset"
                                   >
-                                </div>                                
+                                </div>
                             </div>
                             <div>
                                 <div class="app-form-group message" style="margin-top: 0">
@@ -221,7 +221,7 @@
                                         <option value="4"><?= "⭐⭐⭐⭐⭐" ?></option>
                                     </select>
                                 </div>
-                                
+
                             </div>
                     </div>
                     <div class="app-form-group buttons">
@@ -243,7 +243,7 @@
         <div class="footer__container bd-container bd-grid">
             <div class="footer__content">
                 <h3 class="footer__title">
-                    <a href="#" class="footer__logo">Syariahrooms</a>
+                    <a href="#" class="footer__logo">ALFATH</a>
                 </h3>
                 <p class="footer__description">Find the convenience as your sweet home has with #staysyariah</p>
             </div>
